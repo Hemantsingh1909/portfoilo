@@ -75,7 +75,14 @@ export function Hero() {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="group relative overflow-hidden px-8 py-6">
+              <Button size="lg" className="group relative overflow-hidden px-8 py-6" 
+              onClick={() => {
+              const link = document.createElement("a");
+              link.href = "/Hemant_Satwal_Resume.pdf";
+              link.download = "Hemant_Satwal_Resume.pdf";
+              link.click();
+              }}
+              >
                 <span className="relative z-10 flex items-center gap-2">
                   <Download className="h-5 w-5" />
                   Download Resume
