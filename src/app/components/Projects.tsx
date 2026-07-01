@@ -9,7 +9,7 @@ export function Projects() {
   {
     title: "ATSPrime",
     description: "Free, no-paywall resume tailoring tool. Upload your resume, paste a job description, and get an ATS-optimized version with keyword analysis and a tailored summary in one click — built after hitting paywalls on every other resume optimizer while job hunting myself.",
-    image: "/* replace with a real screenshot of atsprime.in */",
+    image: "/images/atsprime-screenshot.png",
     technologies: ["Next.js", "React", "TypeScript", "AI/NLP"],
     github: "https://github.com/Hemantsingh1909/atsprime",
     demo: "https://atsprime.in"
@@ -25,7 +25,7 @@ export function Projects() {
   {
     title: "E-Commerce Cart Functionality",
     description: "Full-stack e-commerce product and cart page with user-facing product listing, cart state management, and a Node.js/Express backend connected to MongoDB.",
-    image: "/* replace with a real screenshot from your portfolio's existing project card */",
+    image: "/images/ecommerce-screenshot.png",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Hemantsingh1909/CartFunctionality",
     demo: "https://cart-functionality-beta.vercel.app/"
