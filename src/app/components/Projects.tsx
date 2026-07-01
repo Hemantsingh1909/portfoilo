@@ -15,21 +15,21 @@ export function Projects() {
     demo: "https://atsprime.in"
   },
   {
-    title: "Sentiment Analysis Research",
-    description: "Primary author of a Scopus-indexed research paper on sentiment analysis, presented at ISSF 2026, as part of M.Tech coursework in Data Science.",
-    image: "/* replace with paper thumbnail, conference photo, or a results chart from the project */",
-    technologies: ["Python", "NLP", "Machine Learning"],
-    github: "#", // link to code repo if you have one, or remove this field
-    demo: "#" // link to the published paper / Scopus listing
-  },
-  {
     title: "E-Commerce Cart Functionality",
     description: "Full-stack e-commerce product and cart page with user-facing product listing, cart state management, and a Node.js/Express backend connected to MongoDB.",
     image: "/images/ecommerce-screenshot.png",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Hemantsingh1909/CartFunctionality",
     demo: "https://cart-functionality-beta.vercel.app/"
-  }
+  },
+    {
+    title: "Sentiment Analysis Research",
+    description: "Primary author of a Scopus-indexed research paper on sentiment analysis, presented at ISSF 2026, as part of M.Tech coursework in Data Science.",
+    image: "/images/sentiment-analysis-screenshot.png",
+    technologies: ["Python", "NLP", "Machine Learning"],
+    github: "#", // link to code repo if you have one, or remove this field
+    demo: "#" // link to the published paper / Scopus listing
+  },
 ];
 
   return (
