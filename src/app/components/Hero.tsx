@@ -62,8 +62,8 @@ export function Hero() {
               
               <div className="space-y-4">
                 <p className="text-xl sm:text-2xl text-muted-foreground max-w-lg">
-                  Software Engineer crafting digital experiences with
-                  <span className="text-primary"> 2+ years</span> of expertise
+                  Software Engineer & Data Scientist building AI-powered products with
+                  <span className="text-primary"> 2+ years</span> of expertise.
                 </p>
                 
                 <p className="text-lg text-muted-foreground/80 max-w-md">
@@ -87,6 +87,7 @@ export function Hero() {
                 variant="outline" 
                 size="lg" 
                 className="px-8 py-6 bg-background/50 backdrop-blur-sm border-primary/20 hover:bg-primary/10"
+                onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
               >
                 View My Work
               </Button>
