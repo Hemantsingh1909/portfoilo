@@ -29,14 +29,6 @@ export function Projects() {
       technologies: ["React", "Firebase", "Chart.js", "WebSocket", "TypeScript"],
       github: "#",
       demo: "#"
-    },
-    {
-      title: "Jhumkas by Malti",
-      description: "E-commerce platform for a D2C jewelry brand, migrated from a static prototype to a production Next.js application with a Supabase-backed catalog, authenticated admin dashboard, automated order/email notifications, and SEO-optimized server-rendered pages.",
-      image: "/projects/jhumkas-by-malti.png",
-      technologies: ["Next.js", "Redux Toolkit", "Supabase", "Tailwind CSS", "Resend"],
-      github: "https://github.com/Hemantsingh1909/jumkasbymahira",
-      demo: "https://www.jhumkasbymalti.in"
     }
   ];
 

@@ -15,6 +15,14 @@ export function Projects() {
     demo: "https://atsprime.in"
   },
   {
+    title: "Jhumkas by Malti",
+    description: "E-commerce platform for a D2C jewelry brand, migrated from a static prototype to a production Next.js application with a Supabase-backed catalog, authenticated admin dashboard, automated order/email notifications, and SEO-optimized server-rendered pages.",
+    image: "/images/jhumkas-by-malti.png",
+    technologies: ["Next.js", "Redux Toolkit", "Supabase", "Tailwind CSS", "Resend"],
+    github: "https://github.com/Hemantsingh1909/jumkasbymahira",
+    demo: "https://www.jhumkasbymalti.in"
+  },
+  {
     title: "E-Commerce Cart Functionality",
     description: "Full-stack e-commerce product and cart page with user-facing product listing, cart state management, and a Node.js/Express backend connected to MongoDB.",
     image: "/images/ecommerce-screenshot.png",
@@ -29,7 +37,7 @@ export function Projects() {
     technologies: ["Python", "NLP", "Machine Learning"],
     github: "#", // link to code repo if you have one, or remove this field
     demo: "#" // link to the published paper / Scopus listing
-  },
+  }
 ];
 
   return (
