@@ -29,14 +29,6 @@ export function Projects() {
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Hemantsingh1909/CartFunctionality",
     demo: "https://cart-functionality-beta.vercel.app/"
-  },
-    {
-    title: "Sentiment Analysis Research",
-    description: "Primary author of a Scopus-indexed research paper on sentiment analysis, presented at ISSF 2026, as part of M.Tech coursework in Data Science.",
-    image: "/images/sentiment-analysis-screenshot.png",
-    technologies: ["Python", "NLP", "Machine Learning"],
-    github: "#", // link to code repo if you have one, or remove this field
-    demo: "#" // link to the published paper / Scopus listing
   }
 ];
 
